@@ -1,0 +1,11 @@
+[project]
+name = "dave-agentuity-langchain-1"
+version = "0.1.0"
+description = "first time testing it out!"
+requires-python = ">=3.10, <3.13"
+dependencies = [
+    "agentuity>=0.0.106",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
+    "langchain-openai>=0.3.33",
+]
