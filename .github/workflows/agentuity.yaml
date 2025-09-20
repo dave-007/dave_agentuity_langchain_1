@@ -18,7 +18,7 @@ jobs:
       - name: Install uv (and Python from pyproject)
         uses: astral-sh/setup-uv@v5
         with:
-          python-version-file: pyproject.toml
+          pyproject-file: pyproject.toml
           enable-cache: true
       - name: Deploy Agentuity Project
         uses: agentuity/deploy-action@v1
